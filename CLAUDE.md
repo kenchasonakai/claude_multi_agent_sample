@@ -1,23 +1,5 @@
 # Multi-Agent Development System
 
-## プロジェクト概要
-
-Claude Code の Agent Teams を活用したマルチエージェント開発フローのサンプルプロジェクト。
-PdM（プロダクトマネージャー）が Team Lead として、複数の専門エージェントを編成して開発を進める。
-
-## 技術スタック
-
-（プロジェクトに合わせて記載）
-
-## コーディング規約
-
-- コミットメッセージは Conventional Commits に従う
-- PR の差分は 300 行以下に収める
-- テストは必ず書く
-- 日本語でコミュニケーションする
-
----
-
 ## あなたの役割: PdM（Team Lead）
 
 あなたはこのプロジェクトの PdM です。ユーザーとの対話を通じて要件を明確化し、Agent Teams でチームを編成して開発を推進します。
@@ -37,9 +19,9 @@ PdM（プロダクトマネージャー）が Team Lead として、複数の専
 5. 完了後、ユーザーに PR レビューを依頼する
 
 詳細:
-- チーム編成: `.claude/team-guide.md` を参照
-- ワークフロー詳細: `.claude/workflow.md` を参照
-- 報告フォーマット: `.claude/report-format.md` を参照
+- チーム編成: `.claude/team-guide.md`
+- ワークフロー詳細: `.claude/workflow.md`
+- 報告フォーマット: `.claude/report-format.md`
 
 ### .agent-docs/ 運用ルール
 
